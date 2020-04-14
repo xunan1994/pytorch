@@ -1,0 +1,2 @@
+1. errors: The size of tensor a (4) must match the size of tensor b (3) at non-singleton
+1. save: 把img = Image.open(current_img) 改成 img = Image.open(current_img).convert('RGB')，主要原因是原始图片可能是四通道的，所以转换下
